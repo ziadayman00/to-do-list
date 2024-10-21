@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(228, 241, 252);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.to-do-list{
+    text-align: end;
+}
+input{
+    text-align: end;
+    border-radius: 20px;
+}
+ul{
+    direction: rtl;
+    padding: 0;
+    list-style: none;
+}
+li{
+    list-style-position: inside;
+    margin-bottom: 1rem;
+    background-color: rgba(46, 102, 193, 0.109);
+    padding: 0.5rem;
+    border-radius: 30px;
+}
