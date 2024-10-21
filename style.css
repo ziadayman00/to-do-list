@@ -3,6 +3,8 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Lalezar';
+    font-weight: 900;
 }
 .to-do-list{
     text-align: end;
@@ -21,5 +23,10 @@ li{
     margin-bottom: 1rem;
     background-color: rgba(46, 102, 193, 0.109);
     padding: 0.5rem;
+    border-radius: 30px;
+}
+form{
+    border: solid 0.5px;
+    padding: 1rem;
     border-radius: 30px;
 }

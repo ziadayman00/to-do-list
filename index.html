@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-8 m-auto">
                 <p class="h3 mt-5 pt-5 to-do-list mb-3 text-primary">قائمه المهام</p>
-                <form onsubmit="return showTask()">
+                <form onsubmit="return showTask()" >
                     <input type="text" name="tasks" id="tasks-input" class="form-control rounded-pill mb-3" placeholder="اضافه مهمه جديده">
                     <button class="btn btn-primary form-control mb-3 rounded-pill">اضافه المهمه</button>
                     <ul id="result"></عl>
